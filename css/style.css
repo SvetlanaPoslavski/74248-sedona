@@ -19,63 +19,228 @@ footer {
 }
 
 .main-header {
-	min-height: 60px;
-	width: 100%;
-	background-color: #ffffff;
+	min-height: 56px;
+	width: 768px;
+	background-color: #ff6161;
 }
+	
+}
+
 .first-navigation {
-    display: block;
-    width: 768px;
-    margin: 0 auto 30px;
+	display: block;
+	background-color: #ff6161;
+	width: 100%;
+	height: 56px;
+
+
 }
 
 li  {
-    display: inline-block; 
-    margin-right: 5px; 
-    padding: 3px; 
-}
-.main-container {
-	width: 100%;
-}
-.welcome-title {
-	position: relative;
-	background-image: url("img/background photo.jpg") no-repeat 100% 0;
-	 
-}
-.welcome-block {
-	position: relative;
-	background-color: #61ff6b;
-	width: 100%;
-	height: 412px;
-	background-size: contain;
+    display: inline-block;  
+    text-align: center; 
 
 }
-.first-navigation {
-	background-color: #ff6161;
+.info {
+	float: left;
+	width: 20%;
+	min-height: 40px;
+	background-color: #2b9b9b;
+	margin-left: -30px;
+	margin-top: 10px;
+	line-height: 30px;
+
+
+  
+}
+.media {
+	float: left;
+	width: 20%;
+	min-height: 40px;
+	background-color: #2b9b9b;
+	margin-left: 5px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+
+.hotels {
+	float: right;
+	width: 20%;
+	min-height: 40px;
+	background-color: #2b9b9b;
+	margin-right: 5px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+.statemap {
+	float: right;
+	width: 20%;
+	min-height: 40px;
+	background-color: #2b9b9b;
+	margin-right: 10px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+.city-logo {
+	
+	margin-right: auto;
+    margin-left: auto;
+}
+.main-container {
 	width: 768px;
+}
+
+.main-container .welcome-block {
+	background-image: url(academy_logo.png) no-repeat;
+	width: 100%;
+	height: 540px;
+}
+/*.welcome-block .welcome-background, 
+.welcome-block .welcome-title,
+.welcome-block .welcome-bottom {
+	background-image: url(background_photo.jpg) no-repeat;
+	width: 100%;
+	height: 514px;
+	position: relative;
+	
+}
+/*.welcome-block .welcome-background {
+
+	height: 100%;
+
+}
+
+.welcome-block .welcome-background .welcome-title {
+	background-color: #f28500;
+	background: url(img/welcome.png) no-repeat;
+}
+.welcome-block .welcome-background .welcome-bottom {
+	background-color: #81b3d2;
+	background: url(img/corner.png) no-repeat
+	width: 100%;
 	height: 60px;
+} */
+.description-block {
+	display: block; 
+    margin: 0background: url(media/fish.svg) no-repeat; auto;
 }
-.container {
-	background-color:;
+.descriptions {
+	display: block; 
+    margin: 0 auto;
+    width: 768px;
+    height: 260px;
 }
+
 .advantage {
 	width: 768px;
-    min-height: 330px;
-}
- .reason {
-    width: 256px;
-    min-height: 256px;
+    height: 260px;
+    margin-top: 60px;
+	  
+   
+} 
 }
 .residence
 .food
 .souvenirs {
-	width: 256px;
-    min-height: 330px;
+	margin-top: 60px;
     background-color: #f28500;
 }
 .reason-blue {
 	background-color: #81b3d2;
+	float: left;
+    width: 33%;
+    height: 256px;
+    display: inline-block;  
+    text-align: center; 
+    margin-right: 0px;
+    
+}
+.sedona-photo-small {
+	float: right;
+     width: 66%;
+
+}
+
+
+.residence {
+	
+	 float: left;
+     width: 33%;
+     height: 256px;
+     text-align: center;
+
+    
+}
+.food {
+	
+	 float: left;
+     width: 33%;
+     height: 256px;
+     text-align: center;
+    
+}
+.souvenirs {
+	
+	 float: right;
+     width: 33%;
+     height: 256px;
+     margin-right: 0;
+     text-align: center;
+    
 }
 .reason-grey {
-	background-color: #eeeeee;
+	 background-color: #eeeeee;
+	 float: left;
+     width: 33%;
+     height: 256px;
+     display: inline-block;  
+    text-align: center; 
 }
+.reason-blue:last-child {
+	background-color: #81b3d2;
+	 float: right;
+     width: 33%;
+     height: 256px;
+}
+.sedona-photo-brige {
+	float: left;
+    width: 66%;
+}
+.reason-blue-brige{
+	background-color: #81b3d2;
+	float: right;
+    width: 33%;
+    height: 256px;
+    display: inline-block;  
+    text-align: center; 
+}
+.brige {
+	width: 768px;
+    height: 260px;
+    margin: 0 auto;
+}
+.main-footer {
+	width: 768px;
+	height: 120px;
+	background: #f9fbf6;
+	
+}
+.hashtag {
+	width: 33%;
+    float:left;
+    display: inline-block;  
+    text-align: center; 
+}
+.footer-social {
+	width: 33%;
+	float:left;
+	display: inline-block;  
+    text-align: center; 
+}
+.footer-copyright {
+	width: 33%;
+	float: right;
+	display: inline-block;  
+    text-align: center; 
+
+}
+

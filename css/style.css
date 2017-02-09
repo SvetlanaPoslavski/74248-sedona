@@ -89,39 +89,30 @@ li  {
 	width: 768px;
 }
 
-.main-container .welcome-block {
-	background-image: url(academy_logo.png) no-repeat;
+
+.main-container .welcome-block,
+.main-container .welcome-title,
+.main-container .welcome-bottom {
 	width: 100%;
-	height: 540px;
-}
-/*.welcome-block .welcome-background, 
-.welcome-block .welcome-title,
-.welcome-block .welcome-bottom {
-	background-image: url(background_photo.jpg) no-repeat;
-	width: 100%;
-	height: 514px;
+	height: 512px;
 	position: relative;
-	
-}
-/*.welcome-block .welcome-background {
-
-	height: 100%;
-
 }
 
-.welcome-block .welcome-background .welcome-title {
-	background-color: #f28500;
-	background: url(img/welcome.png) no-repeat;
+.main-container .welcome-block {
+	background: url(../img/background_photo.jpg);
 }
-.welcome-block .welcome-background .welcome-bottom {
-	background-color: #81b3d2;
-	background: url(img/corner.png) no-repeat
-	width: 100%;
-	height: 60px;
-} */
+
+.main-container  .welcome-title {
+	background: url(../img/welcome.png) center no-repeat;
+}
+
+.main-container .welcome-bottom {
+	background: url(../img/corner1.png) bottom no-repeat;
+}
+
 .description-block {
 	display: block; 
-    margin: 0background: url(media/fish.svg) no-repeat; auto;
+    margin: auto;
 }
 .descriptions {
 	display: block; 

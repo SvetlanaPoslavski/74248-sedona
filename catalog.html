@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <title>Sedona</title>
   </head>
   <body>
@@ -10,54 +10,69 @@
       <div class="container">
         <nav class="first-navigation">
           <ul>
-            <li><a href="#">Информация</a></li>
-            <li><a href="#">Фото и видео</a></li>
-            <li><a href="#">Карта штата</a></li>
-            <li><a href="#">Гостиница</a></li>
+            <li class="info"><a href="#">Информация</a></li>
+            <li class="media"><a href="#">Фото и видео</a></li>
+            <li class="statemap"><a href="#">Карта штата</a></li>
+            <li class="hotels"><a href="#">Гостиница</a></li>
           </ul>
+          <div class="city-logo">
+          <img src="img/logo.png" width="140" height="70" alt="city of Sedona">
+          </div>
         </nav>
-        <div class="container" id="city-logo">
-          <a href="#"><img src="img/index-city.png" width="50" height="50" alt="city of Sedona"></a>
-        </div>
       </div>
     </header>
     <main class="container">
       <div class="options-view">
         <form action="#" method="post">
-          <h2>Инфраструктура</h2>
-          <input type="checkbox" name="pool">
-          <label for="pool">Бассейн</label>
-          <input type="checkbox" name="parking">
-          <label for="parking">Парковка</label>
-          <input type="checkbox" name="wi-fi">
-          <label for="wi-fi">Wi-Fi</label>
-          <h2>Тип жилья</h2>
-          <input type="checkbox" name="hotel">
-          <label for="hotel">Отель</label>
-          <input type="checkbox" name="motel">
-          <label for="motel">Мотель</label>
-          <input type="checkbox" name="apartment">
-          <label for="apartment">Апартаменты</label>
-          
-          
-          <!-- Тут элемент с выбором цены (табличка и бегунки) -->
+          <div class="infra">
+           <h2>Инфраструктура</h2>
+            <input type="checkbox" name="pool">
+            <label for="pool">Бассейн</label>
+            <input type="checkbox" name="parking">
+            <label for="parking">Парковка</label>
+            <input type="checkbox" name="wi-fi">
+            <label for="wi-fi">Wi-Fi</label>
+          </div> 
+          <div class="type">
+           <h2>Тип жилья</h2>
+            <input type="checkbox" name="hotel">
+            <label for="hotel">Отель</label>
+            <input type="checkbox" name="motel">
+            <label for="motel">Мотель</label>
+            <input type="checkbox" name="apartment">
+            <label for="apartment">Апартаменты</label>
+           </div>
 
-
-          <input type="submit" value="Показать">
-         </form>
+          <div class="filter-range">
+           <div class="price-controls">
+            <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+            <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+           </div>
+           <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+             <div class="range-toggle range-toggle-min"></div>
+             <div class="range-toggle range-toggle-max"></div>
+           </div>
+           <button class="btn-transparent" type="submit">Показать</button>
+        </div>
+      </form>
       </div>
       <div class="results">
-        <p>Найдено:<span class="number">3</span></p>
-      </div>
-      <div class="sorting">
+        <div class="count">
+         <p>Найдено:<span class="number">3</span></p>
+        </div>
+         <div class="sorting">
         <p>Сортировка</p>
          <a class="price" href="#">По цене</a>
          <a class="type" href="#">По типу</a>
          <a class="rating" href="#">По рейтингу</a>
-      </div>
-      <div class="sorting-arrows">
+         </div>
+        <div class="sorting-arrows">
         <a class="arrow-rise" href="#"></a>
         <a class="arrow-wane"></a>
+        </div>
       </div>
       <div class="articles">
        <div class="item">

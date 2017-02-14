@@ -22,28 +22,33 @@
       </div>
     </header>
     <main class="container">
-      <div class="options-view">
+      <div class="filter-wrappers">
+       <div class="options-view">
         <form action="#" method="post">
           <div class="infra">
-           <h2>Инфраструктура</h2>
-            <input type="checkbox" name="pool">
-            <label for="pool">Бассейн</label>
-            <input type="checkbox" name="parking">
-            <label for="parking">Парковка</label>
-            <input type="checkbox" name="wi-fi">
-            <label for="wi-fi">Wi-Fi</label>
+           <p>Инфраструктура:</p>
+           <ul>
+            <li><input type="checkbox" name="pool" checked>
+            <label for="pool">Бассейн</label></li>
+            <li><input type="checkbox" name="parking">
+            <label for="parking">Парковка</label></li>
+            <li><input type="checkbox" name="wi-fi">
+            <label for="wi-fi">Wi-Fi</label></li>
+           </ul>
           </div> 
           <div class="type">
-           <h2>Тип жилья</h2>
-            <input type="checkbox" name="hotel">
-            <label for="hotel">Отель</label>
-            <input type="checkbox" name="motel">
-            <label for="motel">Мотель</label>
-            <input type="checkbox" name="apartment">
-            <label for="apartment">Апартаменты</label>
+           <p>Тип жилья:</p>
+            <ul>
+            <li><input type="checkbox" name="hotel" checked>
+            <label for="hotel">Отель</label></li>
+            <li><input type="checkbox" name="motel" checked>
+            <label for="motel">Мотель</label></li>
+            <li><input type="checkbox" name="apartment" checked>
+            <label for="apartment">Апартаменты</label></li>
+            </ul>
            </div>
-
           <div class="filter-range">
+            <p>Стоимость в сутки (р):</p>
            <div class="price-controls">
             <label class="min-price">от <input type="text" name="min-price" value="0"></label>
             <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
@@ -59,15 +64,18 @@
         </div>
       </form>
       </div>
+      </div>
       <div class="results">
         <div class="count">
          <p>Найдено:<span class="number">3</span></p>
         </div>
          <div class="sorting">
         <p>Сортировка</p>
-         <a class="price" href="#">По цене</a>
-         <a class="type" href="#">По типу</a>
-         <a class="rating" href="#">По рейтингу</a>
+        <ul>
+         <li><a class="price" href="#">По цене</a></li>
+         <li><a class="type-sort" href="#">По типу</a></li>
+         <li><a class="rating" href="#">По рейтингу</a></li>
+         </ul>
          </div>
         <div class="sorting-arrows">
         <a class="arrow-rise" href="#"></a>
@@ -145,7 +153,7 @@
         <div class="footer-social">
           <a class="social-btn social-btn-tw" href="#">Twitter</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-youtube" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-youtube" href="#">YouTube</a>
         </div>
         <div class="footer-copyright">
           <p>Разработано:</p>
@@ -153,4 +161,5 @@
         </div>
       </div>
     </footer>
+     
 </html>

@@ -283,11 +283,7 @@ h2 {
 	background: url(../img/background_hotels.png) no-repeat; 
 	width: 768px;
 	height: 220px;
-	/*margin: 0;
-    padding: 0;
 	padding-bottom: 33px;
-	text-align: center;
-	position: center;*/
 	
 
 }
@@ -464,7 +460,7 @@ h2 {
   background: #ffffff;
 }
 .results {
-	background: #00ffcc;
+	border-bottom: #e5e5e5 1px solid;
 	width: 768px;
 	height: 86px;
 	display: inline-block;
@@ -475,44 +471,182 @@ h2 {
     text-align: center; 
 	width: 153px;
 	float: left;
-	vertical-align: middle;
-	background: #cc3300;
+	margin-top: 22px; 
 
 }
-.results .sorting li{
-	width: ;
-	display: inline-block;  
-    text-align: center;
-    text-transform: uppercase; 
-    font-weight:bold;
-    color: #000000;
-    text-decoration: none;
-    float: left;
-    background: #ffcc66;
-    
+.sorting {
+	width: 495px;
+	float: left;
+	text-align: left;
 }
+.sorting p{
+	display: inline-block;
+    vertical-align: bottom;
+    margin-top: 39px;
+    margin-bottom: 34px;
+    margin-right: 32px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+
 }
-.price {
+
+p.sort-by .picked {
+   display: inline-block;
+   width: 70px;
    float: left;
+   list-style-type: none;
+   margin-right: 5px;
+   color: #81b3d2;
+   border: none;
 }
-.type-sort {
-	width: 86px;
-	text-align: center;
-    text-transform: uppercase; 
-    font-weight:bold;
-    color: #000000;
-    text-decoration: none;
-    float: left;
+p.sort-by {
+	display: inline-block;
+	width: 70px;
+	float: left;
+	list-style-type: none;
+	margin-right: 5px;
+	color: #c7c7c7;
+	border-bottom: 1px dotted #81b3d2;
+	text-decoration: none;
+	color: #d1d1d1;
+
 }
-.rating {
-	width: 86px;
-	text-align: center;
-    text-transform: uppercase; 
-    font-weight:bold;
-    color: #000000;
-    text-decoration: none;
-    float: left;
-}
-.sorting-arrows {
+
+	
+
+.sorting .sorting-arrows {
+	width: 110px;
 	float: right;
 }
+
+a.arrow-rise {
+	display: inline-block;
+	background: url(../img/up.png) no-repeat;
+	float: left;
+	margin-top: 40px;
+	margin-left: 120px;
+	margin-bottom: 35px;
+	width: 11px;
+	height: 10px;
+
+}
+a.sorting .arrow-wane.active {
+	background: url(../img/down.png) no-repeat;
+	float: right;
+	margin-top: 40px;
+	margin-right: 45px;
+    margin-bottom: 35px;
+    width: 11px;
+	height: 10px;
+}
+.articles {
+	width: 768px;
+}
+.item {
+	width: 768px;
+	height: 152px;
+	border-bottom: #e5e5e5 1px solid;
+	/*margin-bottom: 31px;*/
+}
+/*.information {
+	width: 511px;
+	height: 90px;
+}*/
+.hotel-img {
+	width: 135px;
+	height: 90px;
+	float: left;
+	margin-left: 45px;
+	margin-right: 31px;
+	margin-top: 31px;
+}
+.hotel-presentation {
+	width: 400px;
+	height: 90px;
+	text-align: left;
+	float: left;
+
+
+}
+h2 a {
+	text-align: left;
+}
+p.hotel-presentation {
+	 
+}
+a.more {
+	/*width: 110px;
+	height: 27px;*/
+	background: #81b3d2;
+	padding: 8px 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 8px;
+    vertical-align: bottom;
+    float: left;
+    text-align: center;
+    line-height: 22px;
+
+
+}
+
+a.book {
+	/*width: 142px;
+	height: 27px;*/
+	background: #766357;
+	padding: 8px 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    /*vertical-align: bottom;*/
+    float: left;
+    text-align: center;
+    line-height: 22px;
+}
+.type-of {
+	width: 110px;
+	height: 27px;
+	text-align: left;
+	vertical-align: top;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 0;
+ 
+   
+   
+}
+.price-of {
+	text-align: left;
+	width: 142px;
+	height: 27px;
+	vertical-align: top;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+   
+}
+.hotel-presentation h2 {
+	margin-top: 24px;
+	vertical-align: top;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+.rating-score {
+	width: 112px;
+    height: 27px;
+	background: #f2f2f2;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    line-height: 22px;
+    color: #828282;
+}
+

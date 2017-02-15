@@ -468,10 +468,12 @@ h2 {
 }
 .count {
 	display: inline-block;  
-    text-align: center; 
+    text-align: left; 
 	width: 153px;
 	float: left;
-	margin-top: 22px; 
+	margin-top: 17px;
+	margin-left: 45px; 
+
 
 }
 .sorting {
@@ -575,11 +577,11 @@ h2 a {
 p.hotel-presentation {
 	 
 }
-a.more {
-	/*width: 110px;
-	height: 27px;*/
+.more.btn {
+	width: 110px;
+	height: 27px;
 	background: #81b3d2;
-	padding: 8px 17px;
+	/*padding: 8px 17px;*/
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
@@ -591,20 +593,56 @@ a.more {
 
 
 }
+/*.more {
+	float: left;
+	margin: 0;
+	margin-bottom: 30px;
+	margin-right: 5px;
+	padding: 3px 0;
+	padding-top: 4px;
+	display: block;
+	width: 110px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	background-color: #81b3d2;
+}*/
+/*.btns{
+	width: 142px;
+	background-color: #766357;
+	float: left;
+	margin: 0;
+	margin-bottom: 30px;
+	margin-right: 5px;
+	padding: 3px 0;
+	padding-top: 4px;
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	
+}*/
 
-a.book {
-	/*width: 142px;
-	height: 27px;*/
+
+.book {
+	width: 142px;
+	height: 27px;
 	background: #766357;
-	padding: 8px 17px;
+	/*padding: 8px 17px;*/
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
-    /*vertical-align: bottom;*/
     float: left;
     text-align: center;
     line-height: 22px;
 }
+
 .type-of {
 	width: 110px;
 	height: 27px;
@@ -624,8 +662,8 @@ a.book {
 	vertical-align: top;
     text-transform: uppercase;
     float: left;
-    margin-left: 25px;
-    margin-bottom: 20px;
+    margin-left: 45px;
+    margin-bottom: 0px;
     margin-top: 0;
 
    
@@ -639,14 +677,24 @@ a {
 	text-decoration: none;
 }
 .rating-score {
+	display: block;
 	width: 112px;
     height: 27px;
 	background: #f2f2f2;
     text-transform: uppercase;
-    font-weight: bold;
     float: left;
     text-align: center;
-    line-height: 22px;
+    /*line-height: 2px;*/
     color: #828282;
+    margin-top: 50px;
 }
-
+.four-stars,
+.three-stars,
+.two-stars{
+	margin-right: 45px;
+	margin-top: 28px;
+	float: right;
+}
+.rating-score p {
+	line-height: 2px;
+}

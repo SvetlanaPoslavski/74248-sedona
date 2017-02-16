@@ -71,31 +71,40 @@
         <div class="reason-grey">
           <h2>Небольшая площадь</h2>
           <p>-№3-</p>
-          <p>Все достопримечательности находятся очень близко</p>
+          <p>Все достопримеча-<br>тельности находятся<br> очень близко</p>
         </div>
         <div class="reason-grey">
-          <h2>Красивая дорога</h2>
+          <h2>Красивая <br>дорога</h2>
           <p>-№4-</p>
-          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          <p>Ехать в Седону из<br> Лас-Вегаса совсем<br> не скучно!</p>
         </div>
         <div class="reason-grey">
-          <h2>Мало туристов</h2>
+          <h2>Мало<br> туристов</h2>
           <p>-№5-</p>
-          <p>Большинство едет в Гранд Каньон и толпится там</p>
+          <p>Большинство едет в<br> Гранд Каньон и<br> толпится там</p>
         </div>
       </section>
-      <div class="our-offer">
-        <h2>Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <div class="container" id="choise">
-          <form action="#" method="post">
-            <p class="search-hotel">Поиск гостиницы в Седоне</p>
-            <label for="arrival-field">Дата заезда</label>
-            <input type="text" name="arrival" id="arrival-field">
-            <input type="datetime" name="calendar">
+      <div class="interest-block">
+        <div class="interest-item">
+          <h2>Заинтересовались?</h2>
+          <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <p class="search-hotel"><a>Поиск гостиницы в Седоне</a></p>
+        </div>
+        </div>
+         <div class="map">
+         <div class="choice">
+         <form action="#" method="post">
+            <label class="arrival" for="arrival-field">Дата заезда
+              <div class=""></div>
+              <a class="arrival-cal" href="#">
+                <img class="icon-calendar" src="img/calendar.png">
+              </a> 
+            </label> 
+            <input type="text" name="arrival" value="24 апреля 2016" id="arrival-field">
+
             <label for="departure-field">Дата выезда</label>
-            <input type="text" name="departure" id="departure-field">
-            <input type="datetime" name="calendar">
+            <input type="text" name="departure" value="4 июля 2017" id="departure-field">
+            
            <div class="box-number-with-control">
             <label for="box-number">Взрослые</label>
             <button class="btn-minus">-</button>
@@ -107,28 +116,29 @@
             <button class="btn-minus">-</button>
             <input type="text" data-max-avalible="1" maxlength="1" value="1">
             <button class="btn-plus">+</button>
-          </div>
+           </div>
              <input type="submit" value="Найти">
           </form>
         </div>
-      </div>
+      </div> 
     </main>
-    <footer>
-      <div class="main-footer">
+    <footer class="main-footer">
+      <div class="container">
         <div class="hashtag">
-          <a href="#">#visitsedona</a>
+          <p>#visitsedona</p>
         </div>
-        <div class="footer-social">
+      <div class="footer-social">
           <a class="social-btn-tw"  href="#"><img src="img/twitter.png" width="" height="" alt=""></a>
           <a class="social-btn-fb" href="#"><img src="img/facebook.png" width="" height="" alt=""></a>
           <a class="social-btn-youtube" href="#"><img src="img/youtube.png" width="" height="" alt=""></a>
-        </div>
+      </div>
         <div class="footer-copyright">
           <p>Разработано:</p>
           <a class="btn" href="#"><img src="img/academy_logo.png"></a>
         </div>
       </div>
-    </footer>
+  </footer>
+  </body>
 </html>
 
    

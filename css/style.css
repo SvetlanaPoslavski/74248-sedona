@@ -335,6 +335,7 @@ h2 {
 }
 .footer-social {
      display: inline-block;
+    /*margin-left:*/ 
      float: left;
      vertical-align: middle;
      margin-top: 30px;

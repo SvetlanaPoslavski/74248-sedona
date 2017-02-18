@@ -296,10 +296,23 @@ h2 {
 	margin-top: 50px;
 	margin-right: 110px;
 
-
+}
+.box-number-with-control-1,
+.box-number-with-control-2{
+	width: 117px;
+	height: 40px;
+	
+}
+.btn-minus,
+.btn-plus ,
+.child,
+.adult {
+	width: 39px;
+    background: #f2f2f2;
+	border: none; 
 
 }
-}
+
 .main-footer {
 	display: inline-block;
     width: 768px;
@@ -317,6 +330,7 @@ h2 {
     text-decoration: none;
     vertical-align: middle;
     margin-top: 30px;
+    margin-left: 50px;
 
 }
 .footer-social {
@@ -341,6 +355,10 @@ h2 {
 	background-size: 50px;
 	padding: 10px 15px;
 } 
+.social-btn-fb {
+	padding: 10px 5px;
+
+}
 
 
 }
@@ -352,8 +370,16 @@ h2 {
     color: #000000;
     padding-left: 0px;
     text-transform: uppercase;
-}
 
+}
+.footer-copyright p {
+
+}
+.btn {
+	display: inline-block;
+	float: right;
+	margin-right: 45px;
+}
 .filter-wrapper {
 	width: 678px;
 	height: 188px;

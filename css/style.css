@@ -337,10 +337,13 @@ position: relative;
 	width: 39px;
     background: #f2f2f2;
 	border: none; 
+	width: calc(100%/3);
 
 }
 .btn-minus {
     float: left;
+    
+
 }
 .btn-plus {
 	float: right;
